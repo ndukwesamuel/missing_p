@@ -1,0 +1,302 @@
+
+@media (min-width:320px)  {
+    .nav_bar_sty{
+        background-color: #F2545B;
+        color: white;
+    }
+
+
+    .nav_login_bnt{
+        background-color: #FFFFFF;
+        width: 7em;
+        border-radius: 5px;
+        border: none;
+        color: #F2545B  !important;
+        margin: 0 0 0 4em;
+
+    }
+
+    .nav_menu{
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    /* section one start here */
+    .indexsec1{
+      padding-bottom: 5em;
+  }
+
+    .col_1_sec{
+        padding:  2em 0 0 0  ;
+        text-align: center;
+        
+    }
+
+    .index_img_class{
+        width: 90%;
+        margin: 0 0 0 1em;
+    }
+
+    /* section start here */
+
+    /* footer start here  */
+        
+footer {
+  background-color: #f2545b;
+  font-size: 0.8em;
+  padding: 2em 0 0 0 ;
+
+}
+    .footerflex {
+      display: flex;
+      color: white;
+      flex-direction: column;
+      padding: 0 0 0 5em;
+
+    }
+
+
+    
+  .footerflex a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .footerflex a:hover {
+    color: white;
+    font-weight: bold;
+  }
+
+  .ft1, .ft2, .ft3, .ft4{
+   margin-bottom: 1em;
+}
+
+
+  .ft1 > h3, .ft2 > h3, .ft3 > h3, .ft4 > h3{
+    font-size: 1.3em;
+}
+
+
+
+
+
+
+
+     /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+
+
+@media (min-width:641px)  {
+
+    /* nav section  */
+
+    /* <button class="nav-link nav_login_bnt"> Login </button> */
+
+    .nav_login_bnt{
+        background-color: #FFFFFF;
+        width: 7em;
+        border-radius: 5px;
+        outline: none;
+        color: #F2545B  !important;
+        margin: 0 0 0 16em;
+
+    }
+
+    .nav_menu{
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    /* nav end here */
+
+    /* section one start here */
+
+    .col_1_sec{
+      margin: 1em 0 0 1em ;
+      text-align: left;
+  }
+    .indexsec1{
+        padding-bottom: 5em;
+    }
+    .index_secion1_div > div{
+        padding-top: 5em;
+    }
+
+    .col_1_sec > h1{
+        font-size: 1.5em;
+    }
+
+    .index_img_class{
+        width: 20em;
+    }
+
+    .btn_create_acc{
+        background-color: #F2545B;
+        color: white;
+    }
+    /* section one end here */
+
+
+        /* footer css  start here */
+    
+footer {
+    background-color: #f2545b;
+    font-size: 0.8em;
+    padding: 2em 0 0 0 ;
+
+  }
+
+  .container_footer {
+    width: 89%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .footerflex {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+
+  .footerflex a {
+    text-decoration: none;
+    color: white;
+  }
+    .footerflex a:hover {
+    color: white;
+    font-weight: bold;
+  }
+
+  .ft1 > h3, .ft2 > h3, .ft3 > h3, .ft4 > h3{
+    font-size: 1.3em;
+}
+
+.ft1, .ft2, .ft3, .ft4{
+  margin-bottom: 0;
+}
+
+/* fotter end here */
+
+
+    
+
+
+    
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) {
+
+    /* nav section  */
+
+    .nav_menu{
+        margin: 0;
+        text-align: none;
+    }
+
+
+    .nav_login_bnt{
+        margin: 0 0 0 0;
+
+    }
+
+
+    /* nav section end here */
+
+    /* index_section_one stat here */
+    .index_secion1_div > div{
+        padding-top: 5em;
+    }
+
+    .index_img_class{
+        width: 35em;
+    }
+    .btn_create_acc{
+        background-color: #F2545B;
+        color: white;
+        padding: 0.5em;
+    }
+
+    .col_1_sec{
+        margin: 5em 1em 0 4em;
+
+        
+    }
+
+    .col_1_sec > h1 {
+        font-size: 2.5em;
+    }
+
+    .col_1_sec > p {
+        font-size: 1.2em;
+    }
+
+
+    .indexsec1{
+        padding-bottom: 10em;
+    }
+
+    /* footer css  start here */
+    
+footer {
+    background-color: #f2545b;
+    /* margin-top: 100px;
+    pad
+    
+    ding-bottom: 20px; */
+  }
+
+
+  .footerflex {
+    display: flex;
+    color: white;
+    margin-top: 40px;
+  }
+  .footerflex a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* .footerflex div{
+    margin-right: 100px;
+  } */
+  .ft1 {
+    line-height: 35px;
+  }
+  .socials a {
+    padding-right: 15px;
+  }
+  .ft2 {
+    line-height: 35px;
+    margin-left: 200px;
+  }
+  .ft3 {
+    line-height: 35px;
+    margin-left: 180px;
+  }
+  .ft4 {
+    line-height: 35px;
+    margin-left: 180px;
+  }
+  .copyright {
+    text-align: center;
+    padding: 20px;
+  }
+
+
+  .container_footer {
+    width: 89%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .ft1 > h3, .ft2 > h3, .ft3 > h3, .ft4 > h3{
+        font-size: 21px;
+  }
+  /* foter css ends here */
+
+    
+    
+    /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
