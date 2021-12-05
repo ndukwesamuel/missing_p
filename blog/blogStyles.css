@@ -128,6 +128,27 @@ body{
 }
 
 
+/* detail section start here  */
+
+.sec1 {
+  /* width: 50%; */
+  /* margin: auto;
+  margin-top: 100px; */
+  
+}
+
+.sec1 img {
+  width: 667px;
+  height: 405px;
+  margin-top: 20px;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  
+}
+
+
+
+/* detail section end here */
 
 
 }
@@ -187,6 +208,138 @@ body{
   height: 290px;
 }
 
+
+/* laptop screen for details  start here */
+.sec1 {
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.sec1 img {
+  width: 667px;
+  height: 405px;
+  margin-top: 20px;
+}
+
+.sec1 p {
+  margin-top: 10px;
+}
+
+.sec1 button {
+  color: #f2545b;
+  padding: 5px;
+  border: 1px solid #f2545b;
+  background-color: inherit;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+
+#updates {
+  display: flex;
+  margin-top: 5px;
+}
+#updates p {
+  border-right: 1px solid black;
+  padding-right: 10px;
+} 
+
+.sec2 {
+  width: 53%;
+  margin: auto;
+  margin-top: 100px;
+  overflow: hidden;
+}
+
+.sec2 img {
+  height: 65px;
+  width: 65px;
+}
+
+
+.anonymous1 {
+  display: flex;
+}
+.anonymous1 div {
+  margin-left: 10px;
+}
+
+
+.anonymous2 {
+  display: flex;
+  margin-top: 20px;
+}
+.anonymous2 div {
+  margin-left: 10px;
+}
+
+
+.anonymous3 {
+  display: flex;
+  margin-top: 20px;
+}
+.anonymous3 div {
+  margin-left: 10px;
+}
+
+
+.anonymous4 {
+  display: flex;
+  margin-top: 20px;
+}
+.anonymous4 div {
+  margin-left: 10px;
+}
+.anon {
+  color: #f2545b;
+  font-size: larger;
+}
+
+
+.sec3 {
+  width: 53%;
+  margin: auto;
+  margin-top: 100px;
+  overflow: hidden;
+  padding-bottom: 2em;
+}
+form input {
+  width: 485px;
+  height: 60px;
+}
+.sec3 textarea {
+  width: 700px;
+  height: 195px;
+}
+#make-anonymous {
+  height: 20px;
+  width: 20px;
+}
+
+
+
+
+#sub {
+  width: 485px;
+  height: 40px;
+  background-color: #f2545b;
+  border: none;
+  font-size: larger;
+  color: white;
+}
+
+
+
+
+/* laptop screen for details end here  */
+
+
+
+
 /* end of laptop screen */
+
+
+
 
 }
