@@ -66,6 +66,13 @@ body{
 }
 
 
+/* modile details start here  */
+
+
+
+/* mobile detail end here */
+
+
 
   
 
@@ -134,17 +141,137 @@ body{
   /* width: 50%; */
   /* margin: auto;
   margin-top: 100px; */
+  padding: 0 2em 0 2em ;
   
 }
 
+.sec1 > h2 {
+  margin-top: 1em;
+  text-align: center;
+}
+
 .sec1 img {
+  margin-left: 1em;
   width: 667px;
   height: 405px;
   margin-top: 20px;
   border-top-left-radius: 2em;
   border-top-right-radius: 2em;
+  margin-bottom: 2em;
   
 }
+
+.sec1 p {
+  margin-top: 10px;
+}
+
+
+.sec1 button {
+  color: #f2545b;
+  padding: 5px;
+  border: 1px solid #f2545b;
+  background-color: inherit;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+
+#updates {
+  display: flex;
+  margin-top: 5px;
+}
+#updates p {
+  border-right: 1px solid black;
+  padding-right: 10px;
+} 
+
+
+.sec2 {
+  width: 53%;
+  margin: auto;
+  margin-top: 100px;
+  overflow: hidden;
+}
+.sec2 img {
+  height: 65px;
+  width: 65px;
+}
+
+
+.anonymous1 {
+  display: flex;
+}
+.anonymous1 div {
+  margin-left: 10px;
+}
+
+
+.anonymous2 {
+  display: flex;
+  margin-top: 20px;
+}
+.anonymous2 div {
+  margin-left: 10px;
+}
+
+
+.anonymous3 {
+  display: flex;
+  margin-top: 20px;
+}
+.anonymous3 div {
+  margin-left: 10px;
+}
+
+
+.anonymous4 {
+  display: flex;
+  margin-top: 20px;
+}
+.anonymous4 div {
+  margin-left: 10px;
+}
+.anon {
+  color: #f2545b;
+  font-size: larger;
+}
+
+.sec3 {
+  width: 53%;
+  margin: auto;
+  margin-top: 100px;
+  overflow: hidden;
+  padding-bottom: 2em;
+}
+
+form input {
+  width: 25em;
+  height: 60px;
+}
+
+.sec3 textarea {
+  width: 25em;
+  height: 195px;
+}
+
+#make-anonymous {
+  height: 20px;
+  width: 20px;
+}
+
+
+#sub {
+  width: 12em;
+  height: 40px;
+  background-color: #f2545b;
+  border: none;
+  font-size: larger;
+  color: white;
+}
+
+
+
+
 
 
 
