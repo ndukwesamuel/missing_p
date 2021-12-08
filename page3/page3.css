@@ -1,0 +1,13 @@
+
+
+
+.page_3_mark{
+    background-color: green;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.page_3_mark > img{
+    width: 5em;
+}

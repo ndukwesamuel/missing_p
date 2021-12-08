@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* i reuse the css to style other page  */
+
+body{
+    background-color: rgb(219, 219, 219);
+}
+
+@media (min-width:320px)  {
+
+    .create_account{
+        background-color: #FFFFFF;
+        width: 90%;
+        margin: 2em 0 0 1em;
+        padding: 0 0 0 0;
+    }
+
+    .create_word {
+        text-align: center;
+        padding-top: 1em;
+    }
+    
+    .create_word p:first-child{
+        margin-bottom: -0.1em;
+        font-size: 20px;
+
+    }
+
+    .create_word p:last-child{
+        font-size: 13px;
+        
+    }
+
+    .create_account  form  div label{
+        display: block;
+    }
+
+    .create_account  form  div input{
+        display: inline-block;
+        width: 17em;
+        height: 3em;
+        border-radius: 0.3em;
+        outline: none;
+        border: 0.5px #D9E1EC solid;
+        padding: 1em 1em 1em 1em;
+    }
+
+
+    div .form
+        {
+            display: block;
+            text-align: center;
+        }
+
+    form
+
+        {
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+        }
+
+    form div {
+        margin: 0 0 1em 0;
+    }
+
+    .sub_btn button {
+        background-color: #F2545B;
+        color: #FFFFFF;
+        outline: none;
+        border: 1px;
+        width: 17em;
+        padding: 0.5em;
+    }
+    
+
+    .alread_have_Acc{
+        text-align: center;
+        padding: 0 0 0 0  ;
+        margin: 0;
+    }
+
+    .alread_have_Acc a{
+        text-decoration: none;
+    }
+
+
+    /* note style the inner color of the input */
+
+/* from this line the css is focuse on just item that the general css cant style {login page}  */
+
+    .login_forget a{
+        color: #F2545B;
+        text-decoration: none;
+    }
+
+    .social_login{
+        margin: 0 0 1em 4.5em;
+    }
+
+    .social_medial{
+        display: flex;
+        width: 15em;
+        /* justify-content: space-evenly; */
+    }
+
+    .social_medial div{
+        background-color: #F2545B;
+        width: 10em;
+        margin-right: 0.2em;
+        padding: 0.5em;
+    }
+/* the login page css end here */
+    
+    /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:481px)  {
+    
+    
+    
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px)  {
+
+    
+    .create_account{
+        width: 70%;
+        margin: 3em 0 0 7em;
+        padding: 0 0 0 0;
+    
+    }
+
+
+    .create_account  form  div input{
+        /* display: inline-block; */
+        width: 28em;
+        height: 3.5em;
+        border-radius: 0.3em;
+    }
+
+    .sub_btn button {
+        width: 28em;
+        height: 3em;
+    }
+
+
+    .create_word {
+        text-align: center;
+        padding-top: 1em;
+    }
+    
+    .create_word p:first-child{
+        margin-bottom: -0.1em;
+        font-size: 40px;
+
+    }
+    .create_word p:last-child{
+        font-size: 17px;
+        
+    }
+
+    
+    
+    
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) {
+
+    .create_account{
+        width: 40%;
+         margin: 2em 0 0 25em;
+         /* font-family: poppins; */
+    }
+
+
+
+
+}
