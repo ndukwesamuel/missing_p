@@ -1,172 +1,126 @@
+a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  margin-top: 10px;
+}
 
 
-@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:320px)  {
+  
+  .about_us {
+    text-align: center;
+    /* margin-top: 30px; */
+  }
+  
+  .standing_man_container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+
+      /* margin: 100px 80px;
+      padding: 40px 80px; */
+  }
+  .standing_man_img {
+    /* padding: 0px 50px; */
+    text-align: center;
+  }
+
+  .standing_man_img img {
+    width: 13em;
+    padding-top: 2em;
+    
+  }
+
+  .standing_man_text{
+    padding: 3em 0em 0 0;
+  }
+
+  .standing_man_text p{
+    text-align: justify;
+    padding: 0 1em;
+    font-size: 1em;
+  }
+  
+  /* smartphones, iPhone, portrait 480x320 phones */ }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
-@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:641px)  {
+
+  .about_us {
+    text-align: center;
+    /* margin-top: 30px; */
+  }
+  
+  .standing_man_container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+    margin: 0 6em;
+    margin-top: 2em;
+
+      /* margin: 100px 80px;
+      padding: 40px 80px; */
+  }
+  .standing_man_img {
+    /* padding: 0px 50px; */
+  }
+
+  .standing_man_img img {
+    width: 23em;
+    padding-top: 2em;
+  }
+
+  .standing_man_text{
+    padding: 3em 0em 0 0;
+  }
+
+  .standing_man_text p{
+    text-align: justify;
+    padding: 0 1em;
+    font-size: 1.2em;
+  }
+
+
+  
+  
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
 @media (min-width:1024px) {
 
-
-  
-  a {
-    text-decoration: none;
-    color: #fff;
-    display: block;
-    margin-top: 10px;
-  }
-  
   .about_us {
     text-align: center;
-    margin-top: 30px;
-  }
-
-  .test{
-    display: flex;
-    flex-direction: column;
-    /* flex-direction: column; */
-  }
-
-  .test3{
-    height: 1em;
-    background-color: purple;
-    width: 6em;
-    margin-left: 30em;
-    border-radius: 2em;
-
+    /* margin-top: 30px; */
   }
   
-  .underline {
-    background-color: yellow;
-    height: 6px;
-    border-radius: 5px;
-    margin-bottom: 15px;
-  }
   .standing_man_container {
     display: flex;
-    position: relative;
-    bottom: 50px;
-    height: 490px;
     flex-direction: row;
     background-color: #f8f9fa;
-    margin: 100px 80px;
-    padding: 40px 80px;
+    margin: 0 6em;
+    margin-top: 2em;
+    height: 33em;
+
+      /* margin: 100px 80px;
+      padding: 40px 80px; */
   }
-  .standing_man_img {
-    padding: 40px 50px;
-  }
-  .red_bg_footer {
-    display: flex;
-    justify-content: space-between;
-    background-color: #f2545b;
-    color: #fff;
-    padding: 20px 120px;
-    height: 230px;
-  }
-  .copyright {
-    display: flex;
-    justify-content: center;
-  }
-  
-  
-  
-  
-  
-  /* stanly  privacy css start here*/
-  
-  
-  .about_us {
-    text-align: center;
-    margin-top: 30px;
-  }
-  
-  .underline {
-    background-color: red;
-    width: 65px;
-    height: 6px;
-    margin-left: 35rem;
-    border-radius: 5px;
-    margin-bottom: 15px;
-  }
-  .standing_man_container {
-    display: flex;
-    position: relative;
-    bottom: 50px;
-    height: 550px;
-    flex-direction: row;
-    background-color: #f8f9fa;
-    margin: 100px 80px;
-    padding: 40px 80px;
-  }
-  .standing_man_img {
-    padding: 40px 50px;
-  }
-  .red_bg_footer {
-    display: flex;
-    justify-content: space-between;
-    background-color: #f2545b;
-    color: #fff;
-    padding: 20px 120px;
-    height: 230px;
-  }
-  .copyright {
-    display: flex;
-    justify-content: center;
-  }
-  
-  
-  
-  
-  
-  
-  /* terms */
 
 
-  /* my css */
-a {
-    text-decoration: none;
-    color: #fff;
-    display: block;
-    margin-top: 10px;
+  .standing_man_img img {
+    margin-top: 10em;
   }
+
+  .standing_man_text{
+    padding: 2 0em 0 0;
+  }
+
+  .standing_man_text p{
+    text-align: justify;
+  }
+
+
+
+
   
-  .about_us {
-    text-align: center;
-    margin-top: 30px;
-  }
-  
-  .underline {
-    background-color: red;
-    width: 65px;
-    height: 6px;
-    margin-left: 35rem;
-    border-radius: 5px;
-    margin-bottom: 15px;
-  }
-  .standing_man_container {
-    display: flex;
-    position: relative;
-    bottom: 50px;
-    height: 550px;
-    flex-direction: row;
-    background-color: #f8f9fa;
-    margin: 100px 80px;
-    padding: 40px 80px;
-  }
-  .standing_man_img {
-    padding: 40px 50px;
-  }
-  .red_bg_footer {
-    display: flex;
-    justify-content: space-between;
-    background-color: #f2545b;
-    color: #fff;
-    padding: 20px 120px;
-    height: 230px;
-  }
-  .copyright {
-    display: flex;
-    justify-content: center;
-  }
   
   
   /* big landscape tablets, laptops, and desktops */ }
