@@ -117,13 +117,19 @@ a {
     text-align: justify;
   }
 
+  .standing_man_img .page19_img {
+    width: 15em;
+    margin-top: 17em;
+  }
 
 
-
-  
-  
   
   /* big landscape tablets, laptops, and desktops */ }
-@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+@media (min-width:1281px) {
+  .standing_man_img .page19_img {
+    width: 25em;
+    margin-top: 17em;
+  }
+  /* hi-res laptops and desktops */ }
 
 
